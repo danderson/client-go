@@ -27,12 +27,12 @@ import (
 	appsv1beta1 "k8s.io/api/apps/v1beta1"
 	apiv1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/tools/clientcmd"
-	"k8s.io/client-go/util/homedir"
-	"k8s.io/client-go/util/retry"
+	"k8s.io/client-go/v6/kubernetes"
+	"k8s.io/client-go/v6/tools/clientcmd"
+	"k8s.io/client-go/v6/util/homedir"
+	"k8s.io/client-go/v6/util/retry"
 	// Uncomment the following line to load the gcp plugin (only required to authenticate against GKE clusters).
-	// _ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
+	// _ "k8s.io/client-go/v6/plugin/pkg/client/auth/gcp"
 )
 
 func main() {

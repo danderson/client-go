@@ -35,8 +35,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/diff"
-	"k8s.io/client-go/kubernetes/scheme"
-	utiltesting "k8s.io/client-go/util/testing"
+	"k8s.io/client-go/v6/kubernetes/scheme"
+	utiltesting "k8s.io/client-go/v6/util/testing"
 )
 
 type TestParam struct {

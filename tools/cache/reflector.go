@@ -166,8 +166,8 @@ func hasPackage(file string, ignoredPackages []string) bool {
 
 // trimPackagePrefix reduces duplicate values off the front of a package name.
 func trimPackagePrefix(file string) string {
-	if l := strings.LastIndex(file, "k8s.io/client-go/pkg/"); l >= 0 {
-		return file[l+len("k8s.io/client-go/"):]
+	if l := strings.LastIndex(file, "k8s.io/client-go/v6/pkg/"); l >= 0 {
+		return file[l+len("k8s.io/client-go/v6/"):]
 	}
 	if l := strings.LastIndex(file, "/src/"); l >= 0 {
 		return file[l+5:]

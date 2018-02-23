@@ -19,8 +19,8 @@ package v1beta2
 import (
 	v1beta2 "k8s.io/api/apps/v1beta2"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	"k8s.io/client-go/v6/kubernetes/scheme"
+	rest "k8s.io/client-go/v6/rest"
 )
 
 type AppsV1beta2Interface interface {

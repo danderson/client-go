@@ -19,7 +19,7 @@ package util
 import (
 	"fmt"
 	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/client-go/tools/bootstrap/token/api"
+	"k8s.io/client-go/v6/tools/bootstrap/token/api"
 	"regexp"
 	"strings"
 )

@@ -28,9 +28,9 @@ import (
 	"github.com/imdario/mergo"
 
 	"k8s.io/api/core/v1"
-	restclient "k8s.io/client-go/rest"
-	clientauth "k8s.io/client-go/tools/auth"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
+	restclient "k8s.io/client-go/v6/rest"
+	clientauth "k8s.io/client-go/v6/tools/auth"
+	clientcmdapi "k8s.io/client-go/v6/tools/clientcmd/api"
 )
 
 var (

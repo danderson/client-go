@@ -24,14 +24,14 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/client-go/discovery"
-	scalescheme "k8s.io/client-go/scale/scheme"
-	scaleappsint "k8s.io/client-go/scale/scheme/appsint"
-	scaleappsv1beta1 "k8s.io/client-go/scale/scheme/appsv1beta1"
-	scaleappsv1beta2 "k8s.io/client-go/scale/scheme/appsv1beta2"
-	scaleautoscaling "k8s.io/client-go/scale/scheme/autoscalingv1"
-	scaleextint "k8s.io/client-go/scale/scheme/extensionsint"
-	scaleext "k8s.io/client-go/scale/scheme/extensionsv1beta1"
+	"k8s.io/client-go/v6/discovery"
+	scalescheme "k8s.io/client-go/v6/scale/scheme"
+	scaleappsint "k8s.io/client-go/v6/scale/scheme/appsint"
+	scaleappsv1beta1 "k8s.io/client-go/v6/scale/scheme/appsv1beta1"
+	scaleappsv1beta2 "k8s.io/client-go/v6/scale/scheme/appsv1beta2"
+	scaleautoscaling "k8s.io/client-go/v6/scale/scheme/autoscalingv1"
+	scaleextint "k8s.io/client-go/v6/scale/scheme/extensionsint"
+	scaleext "k8s.io/client-go/v6/scale/scheme/extensionsv1beta1"
 )
 
 // ScaleKindResolver knows about the relationship between

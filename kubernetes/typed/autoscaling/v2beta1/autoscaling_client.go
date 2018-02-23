@@ -19,8 +19,8 @@ package v2beta1
 import (
 	v2beta1 "k8s.io/api/autoscaling/v2beta1"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	"k8s.io/client-go/v6/kubernetes/scheme"
+	rest "k8s.io/client-go/v6/rest"
 )
 
 type AutoscalingV2beta1Interface interface {

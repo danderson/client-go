@@ -64,8 +64,8 @@ func init() {
 // of clientsets, like in:
 //
 //   import (
-//     "k8s.io/client-go/kubernetes"
-//     clientsetscheme "k8s.io/client-go/kubernetes/scheme"
+//     "k8s.io/client-go/v6/kubernetes"
+//     clientsetscheme "k8s.io/client-go/v6/kubernetes/scheme"
 //     aggregatorclientsetscheme "k8s.io/kube-aggregator/pkg/client/clientset_generated/clientset/scheme"
 //   )
 //

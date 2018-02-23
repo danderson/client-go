@@ -25,8 +25,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/version"
 	"k8s.io/apimachinery/pkg/watch"
-	kubeversion "k8s.io/client-go/pkg/version"
-	restclient "k8s.io/client-go/rest"
+	kubeversion "k8s.io/client-go/v6/pkg/version"
+	restclient "k8s.io/client-go/v6/rest"
 )
 
 // Fake implements client.Interface. Meant to be embedded into a struct to get

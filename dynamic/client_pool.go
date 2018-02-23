@@ -21,7 +21,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/api/meta"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	restclient "k8s.io/client-go/rest"
+	restclient "k8s.io/client-go/v6/rest"
 )
 
 // ClientPool manages a pool of dynamic clients.

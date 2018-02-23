@@ -17,7 +17,7 @@ limitations under the License.
 package v1beta2
 
 import (
-	rest "k8s.io/client-go/rest"
+	rest "k8s.io/client-go/v6/rest"
 )
 
 // ScalesGetter has a method to return a ScaleInterface.

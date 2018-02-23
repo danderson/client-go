@@ -36,9 +36,9 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/apimachinery/pkg/watch"
-	certificatesclient "k8s.io/client-go/kubernetes/typed/certificates/v1beta1"
-	"k8s.io/client-go/tools/cache"
-	certutil "k8s.io/client-go/util/cert"
+	certificatesclient "k8s.io/client-go/v6/kubernetes/typed/certificates/v1beta1"
+	"k8s.io/client-go/v6/tools/cache"
+	certutil "k8s.io/client-go/v6/util/cert"
 )
 
 // RequestNodeCertificate will create a certificate signing request for a node

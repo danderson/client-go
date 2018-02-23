@@ -31,10 +31,10 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/client-go/discovery"
-	"k8s.io/client-go/kubernetes/scheme"
-	restclient "k8s.io/client-go/rest"
-	"k8s.io/client-go/rest/fake"
+	"k8s.io/client-go/v6/discovery"
+	"k8s.io/client-go/v6/kubernetes/scheme"
+	restclient "k8s.io/client-go/v6/rest"
+	"k8s.io/client-go/v6/rest/fake"
 )
 
 func objBody(object interface{}) io.ReadCloser {

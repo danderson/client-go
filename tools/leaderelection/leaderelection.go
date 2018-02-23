@@ -57,7 +57,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"
-	rl "k8s.io/client-go/tools/leaderelection/resourcelock"
+	rl "k8s.io/client-go/v6/tools/leaderelection/resourcelock"
 
 	"github.com/golang/glog"
 )

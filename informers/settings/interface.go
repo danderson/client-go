@@ -19,8 +19,8 @@ limitations under the License.
 package settings
 
 import (
-	internalinterfaces "k8s.io/client-go/informers/internalinterfaces"
-	v1alpha1 "k8s.io/client-go/informers/settings/v1alpha1"
+	internalinterfaces "k8s.io/client-go/v6/informers/internalinterfaces"
+	v1alpha1 "k8s.io/client-go/v6/informers/settings/v1alpha1"
 )
 
 // Interface provides access to each of this group's versions.

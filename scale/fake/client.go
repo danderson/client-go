@@ -22,8 +22,8 @@ package fake
 import (
 	autoscalingapi "k8s.io/api/autoscaling/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/client-go/scale"
-	"k8s.io/client-go/testing"
+	"k8s.io/client-go/v6/scale"
+	"k8s.io/client-go/v6/testing"
 )
 
 // FakeScaleClient provides a fake implementation of scale.ScalesGetter.

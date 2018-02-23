@@ -17,9 +17,9 @@ limitations under the License.
 package fake
 
 import (
-	v1beta1 "k8s.io/client-go/kubernetes/typed/authorization/v1beta1"
-	rest "k8s.io/client-go/rest"
-	testing "k8s.io/client-go/testing"
+	v1beta1 "k8s.io/client-go/v6/kubernetes/typed/authorization/v1beta1"
+	rest "k8s.io/client-go/v6/rest"
+	testing "k8s.io/client-go/v6/testing"
 )
 
 type FakeAuthorizationV1beta1 struct {

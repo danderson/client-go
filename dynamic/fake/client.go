@@ -27,9 +27,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/client-go/dynamic"
-	"k8s.io/client-go/testing"
-	"k8s.io/client-go/util/flowcontrol"
+	"k8s.io/client-go/v6/dynamic"
+	"k8s.io/client-go/v6/testing"
+	"k8s.io/client-go/v6/util/flowcontrol"
 )
 
 // FakeClient is a fake implementation of dynamic.Interface.

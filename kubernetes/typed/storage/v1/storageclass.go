@@ -21,8 +21,8 @@ import (
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
-	scheme "k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	scheme "k8s.io/client-go/v6/kubernetes/scheme"
+	rest "k8s.io/client-go/v6/rest"
 )
 
 // StorageClassesGetter has a method to return a StorageClassInterface.

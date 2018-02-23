@@ -29,8 +29,8 @@ import (
 	runtimejson "k8s.io/apimachinery/pkg/runtime/serializer/json"
 	"k8s.io/apimachinery/pkg/runtime/serializer/streaming"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/client-go/kubernetes/scheme"
-	restclientwatch "k8s.io/client-go/rest/watch"
+	"k8s.io/client-go/v6/kubernetes/scheme"
+	restclientwatch "k8s.io/client-go/v6/rest/watch"
 )
 
 // getEncoder mimics how k8s.io/client-go/rest.createSerializers creates a encoder

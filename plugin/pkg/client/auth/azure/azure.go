@@ -29,7 +29,7 @@ import (
 	"github.com/golang/glog"
 
 	"k8s.io/apimachinery/pkg/util/net"
-	restclient "k8s.io/client-go/rest"
+	restclient "k8s.io/client-go/v6/rest"
 )
 
 const (

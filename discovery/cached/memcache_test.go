@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/client-go/discovery/fake"
+	"k8s.io/client-go/v6/discovery/fake"
 )
 
 type fakeDiscovery struct {

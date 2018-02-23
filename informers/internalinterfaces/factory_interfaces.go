@@ -23,8 +23,8 @@ import (
 
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
-	kubernetes "k8s.io/client-go/kubernetes"
-	cache "k8s.io/client-go/tools/cache"
+	kubernetes "k8s.io/client-go/v6/kubernetes"
+	cache "k8s.io/client-go/v6/tools/cache"
 )
 
 type NewInformerFunc func(kubernetes.Interface, time.Duration) cache.SharedIndexInformer

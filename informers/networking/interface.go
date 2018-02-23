@@ -19,8 +19,8 @@ limitations under the License.
 package networking
 
 import (
-	internalinterfaces "k8s.io/client-go/informers/internalinterfaces"
-	v1 "k8s.io/client-go/informers/networking/v1"
+	internalinterfaces "k8s.io/client-go/v6/informers/internalinterfaces"
+	v1 "k8s.io/client-go/v6/informers/networking/v1"
 )
 
 // Interface provides access to each of this group's versions.

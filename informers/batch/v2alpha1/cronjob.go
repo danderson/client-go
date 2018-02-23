@@ -25,10 +25,10 @@ import (
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"
-	internalinterfaces "k8s.io/client-go/informers/internalinterfaces"
-	kubernetes "k8s.io/client-go/kubernetes"
-	v2alpha1 "k8s.io/client-go/listers/batch/v2alpha1"
-	cache "k8s.io/client-go/tools/cache"
+	internalinterfaces "k8s.io/client-go/v6/informers/internalinterfaces"
+	kubernetes "k8s.io/client-go/v6/kubernetes"
+	v2alpha1 "k8s.io/client-go/v6/listers/batch/v2alpha1"
+	cache "k8s.io/client-go/v6/tools/cache"
 )
 
 // CronJobInformer provides access to a shared informer and lister for
